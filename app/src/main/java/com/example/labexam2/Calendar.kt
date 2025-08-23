@@ -36,10 +36,10 @@ class Calendar : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         /// Inflate your layout
-        val view = inflater.inflate(R.layout.fragment_home, container, false)
+        val view = inflater.inflate(R.layout.fragment_calendar, container, false)
 
         // Find Button
-        val createTaskButton: Button = view.findViewById(R.id.addTaskButton)
+        val createTaskButton: Button = view.findViewById(R.id.button2)
 
         // Set OnClickListener
         createTaskButton.setOnClickListener {
