@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LabExam2</string>
+    <string name="app_name">ToDo</string>
 
     <string name="Onboarding_topic1">Create Daily Routine</string>
     <string name="Onboarding_topic2">Manage Your Tasks</string>
