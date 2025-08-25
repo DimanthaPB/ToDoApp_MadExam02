@@ -19,20 +19,22 @@
             android:id="@+id/addTaskTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="32dp"
             android:layout_marginBottom="24dp"
-            android:text="Add Task"
+            android:text="@string/Add_Task"
             android:textColor="@android:color/black"
-            android:textSize="22sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
+            android:shadowColor="#000000"
             android:text="Label"
             android:textColor="@color/accentColor"
-            android:textSize="14sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextText"
@@ -65,7 +67,8 @@
                     android:layout_marginBottom="4dp"
                     android:text="Start"
                     android:textColor="@color/accentColor"
-                    android:textSize="14sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/editTextTime"
@@ -85,11 +88,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="70dp"
+                    android:layout_marginLeft="75dp"
                     android:layout_marginBottom="4dp"
                     android:text="End"
                     android:textColor="@color/accentColor"
-                    android:textSize="14sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/editTextTime2"
@@ -109,7 +113,8 @@
             android:layout_marginBottom="4dp"
             android:text="Repeat"
             android:textColor="@color/accentColor"
-            android:textSize="14sp" />
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTextDate"
@@ -135,7 +140,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:backgroundTint="@color/secondaryColor"
-            android:text="Create Task"
+            android:text="@string/Create_Task"
             android:textColor="@android:color/white"
             android:textColorLink="@color/secondaryColor"
             android:textStyle="bold" />
