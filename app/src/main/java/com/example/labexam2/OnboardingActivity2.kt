@@ -26,11 +26,12 @@ class OnboardingActivity2 : AppCompatActivity() {
             startActivity(Intent)
         }
 
-        val backBtn = findViewById<Button>(R.id.backbtn)
-        backBtn.setOnClickListener {
-            val Intent = Intent(this, OnboardingActivity1::class.java)
-            startActivity(Intent)
-        }
+
+        //val backBtn = findViewById<Button>(R.id.backbtn)
+        //backBtn.setOnClickListener {
+        //    val Intent = Intent(this, OnboardingActivity1::class.java)
+        //    startActivity(Intent)
+        //}
 
     }
 }

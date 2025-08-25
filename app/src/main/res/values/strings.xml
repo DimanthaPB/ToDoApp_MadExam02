@@ -1,5 +1,29 @@
 <resources>
     <string name="app_name">LabExam2</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Onboarding_topic1">Create Daily Routine</string>
+    <string name="Onboarding_topic2">Manage Your Tasks</string>
+    <string name="Onboarding_topic3">Orgonaize your tasks</string>
+
+    <string name="ToDo_Items">ToDo Items</string>
+    <string name="Today">Today</string>
+    <string name="Tomorrow">Tomorrow</string>
+    <string name="Add_Task">Add Task</string>
+    <string name="Create_Task">Create Task</string>
+    <string name="Focus_Mode">Focus Mode</string>
+    <string name="Start_Focusing">Start Focusing</string>
+
+    <string name="welcomeNavigation">Get Started</string>
+    <string name="Skip">SKIP</string>
+    <string name="Next">NEXT</string>
+    <string name="Back">BACK</string>
+
+    <string name="Calendar">Calendar</string>
+    <string name="Profile">Profile</string>
+    <string name="Settings">Settings</string>
+    <string name="FAQ">FAQ</string>
+    <string name="Help_And_Feedback">Help And Feedback</string>
+    <string name="Support_US">Support US</string>
+
+
 </resources>
